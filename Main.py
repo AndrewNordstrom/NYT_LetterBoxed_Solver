@@ -172,7 +172,7 @@ app = Flask(__name__)
 CORS(app)  # Enable Cross-Origin Resource Sharing (CORS) for all routes
 
 # Load the word list into the Trie
-wordlist_path = "/Users/andrewnordstrom/CSCI 1300/Letterbox python/dictionary.txt"
+wordlist_path = "dictionary.txt"
 trie = prepare_word_list_and_trie(wordlist_path)  # Prepare the Trie with the word list
 
 # Route to automatically populate the puzzle with NYT data
