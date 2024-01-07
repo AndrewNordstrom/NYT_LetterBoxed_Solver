@@ -177,7 +177,7 @@ trie = prepare_word_list_and_trie(wordlist_path)  # Prepare the Trie with the wo
 
 @app.route("/", methods=["GET"])
 def home():
-    return "Welcome to the NYT Letter Boxed Solver!"
+    return render_template("index.html")
 
 # Route to automatically populate the puzzle with NYT data
 @app.route('/populate')
