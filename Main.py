@@ -175,6 +175,10 @@ CORS(app)  # Enable Cross-Origin Resource Sharing (CORS) for all routes
 wordlist_path = "dictionary.txt"
 trie = prepare_word_list_and_trie(wordlist_path)  # Prepare the Trie with the word list
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Welcome to the NYT Letter Boxed Solver!"
+
 # Route to automatically populate the puzzle with NYT data
 @app.route('/populate')
 def auto_populate():
