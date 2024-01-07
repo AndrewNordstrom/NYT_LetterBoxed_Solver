@@ -38,4 +38,4 @@ The Python backend is essential for solving the puzzles. It includes:
 - **Custom Puzzle**: Enter custom letters and click 'Solve' for solutions.
 
 ## Contributing
-Contributions are welcome! Please follow the standard fork, branch, commit, and pull request workflow.
+Contributions are welcome! Please follow the standard fork, branch, commit, and pull request workflow
