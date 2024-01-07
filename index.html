@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Boxed Solver</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ckd2pko.css">
+</head>
+<body>
+    <div class="header-container">
+        <div class="header-content">
+            <h1>Letter Boxed Solver</h1>
+            <div class="date-and-author">
+                <span id="current-date"></span>
+                <span>By Andrew</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div class="input-puzzle-container">
+            <div class="input-area">
+                <span class="input-title">Enter Letters</span>
+                <input type="text" id="top-input" class="side-input" placeholder="Top side letters" data-placeholder="Top side letters">
+                <input type="text" id="right-input" class="side-input" placeholder="Right side letters" data-placeholder="Right side letters">
+                <input type="text" id="bottom-input" class="side-input" placeholder="Bottom side letters" data-placeholder="Bottom side letters">
+                <input type="text" id="left-input" class="side-input" placeholder="Left side letters" data-placeholder="Left side letters">
+            </div> 
+
+            <div class="puzzle-area">
+                <!-- Top Side -->
+                <div class="side top-side">
+                    <div class="tile-container">
+                        <div class="tile" id="tile-top-1"><span class="letter" id="letter-top-1"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-top-2"><span class="letter" id="letter-top-2"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-top-3"><span class="letter" id="letter-top-3"></span></div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="side right-side">
+                    <div class="tile-container">
+                        <div class="tile" id="tile-right-1"><span class="letter" id="letter-right-1"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-right-2"><span class="letter" id="letter-right-2"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-right-3"><span class="letter" id="letter-right-3"></span></div>
+                    </div>
+                </div>
+
+                <!-- Bottom Side -->
+                <div class="side bottom-side">
+                    <div class="tile-container">
+                        <div class="tile" id="tile-bottom-1"><span class="letter" id="letter-bottom-1"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-bottom-2"><span class="letter" id="letter-bottom-2"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-bottom-3"><span class="letter" id="letter-bottom-3"></span></div>
+                    </div>
+                </div>
+
+                <!-- Left Side -->
+                <div class="side left-side">
+                    <div class="tile-container">
+                        <div class="tile" id="tile-left-1"><span class="letter" id="letter-left-1"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-left-2"><span class="letter" id="letter-left-2"></span></div>
+                    </div>
+                    <div class="tile-container">
+                        <div class="tile" id="tile-left-3"><span class="letter" id="letter-left-3"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn-restart">Restart</button>
+            <button class="btn-delete">Delete</button>
+            <button class="btn-enter">Enter</button>
+            <button id="autoPopulate">Autofill Today's Letters</button>
+        </div>
+
+        <div id="solution-area">
+            <!-- Solutions will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
