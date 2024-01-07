@@ -188,7 +188,7 @@ def nyt_letters():
     return jsonify(data)
 
 # Route to solve the puzzle based on input data
-@app.route('/solve', methods=['POST'])
+@app.route("/", methods=["POST"])
 def solve():
     data = request.json
     print("Received data:", data)
