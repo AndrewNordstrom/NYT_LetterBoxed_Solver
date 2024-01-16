@@ -1,4 +1,7 @@
 # NYT Letterboxed Puzzle Solver
+[**More About the Building and Testing of this Project**](https://medium.com/@andrewnord/unboxing-the-puzzle-how-i-mastered-nyt-letterboxed-with-an-algorithm-6fc1cf6519dc)
+
+![Letterboxed Solver Screen Recording](https://github.com/AndrewNordstrom/NYT_LetterBoxed_Solver/assets/89470090/59b46232-5beb-4967-ba71-1839bda679ee)
 
 ## Introduction
 This project is a web-based application designed to solve the NYT Letterboxed puzzles. Utilizing a combination of Python for backend logic and HTML, CSS, and JavaScript for the frontend, it allows users to find solutions to the daily puzzles or create and solve their own puzzles.
